@@ -1,0 +1,13 @@
+# Lighthouse pilot groups
+# Fill in real WhatsApp group JIDs after the bot has joined them.
+# To find a JID: run `npm run dev`, send a message in the group, watch logs for "non-pilot group" entries.
+#
+# Format:
+# whatsapp_id,name,type,default_owner_phone,sla_hours
+# type: internal | operator | customer
+# sla_hours: float, e.g. 0.5 = 30 minutes, 2 = 2 hours
+#
+# Example (REPLACE WITH REAL DATA):
+whatsapp_id,name,type,default_owner_phone,sla_hours
+123456789-987654321@g.us,Acme Ops Internal,internal,+919876543210,2
+234567890-876543210@g.us,Acme x Vendor Logistics,operator,+919876543211,1

@@ -1,0 +1,122 @@
+[
+  {
+    "text": "Sir order kab milega bhai urgent hai customer wait kar raha",
+    "expected": "update_needed",
+    "groupName": "Acme Ops",
+    "groupType": "operator"
+  },
+  {
+    "text": "Good morning team 🌹🌹",
+    "expected": "noise",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  },
+  {
+    "text": "This is the third time I am raising same issue. Please escalate to senior immediately.",
+    "expected": "escalation",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Done bhai thanks 🙏",
+    "expected": "resolution",
+    "groupName": "Acme Ops",
+    "groupType": "operator"
+  },
+  {
+    "text": "Need invoice copy for last month's billing please",
+    "expected": "request",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Vehicle reached site",
+    "expected": "fyi",
+    "groupName": "Acme Ops",
+    "groupType": "operator"
+  },
+  {
+    "text": "👍",
+    "expected": "noise",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  },
+  {
+    "text": "Any update on the pending refund? Customer is asking again",
+    "expected": "update_needed",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Issue resolved, system is back up",
+    "expected": "resolution",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  },
+  {
+    "text": "Please arrange pickup at warehouse 3 by 4pm today",
+    "expected": "request",
+    "groupName": "Acme x Vendor",
+    "groupType": "operator"
+  },
+  {
+    "text": "Customer is very angry, threatening to cancel the contract. Please do something fast",
+    "expected": "escalation",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Happy Diwali everyone 🪔🪔🪔",
+    "expected": "noise",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  },
+  {
+    "text": "Kindly process the payment for invoice INV-2341",
+    "expected": "request",
+    "groupName": "Vendor Group",
+    "groupType": "operator"
+  },
+  {
+    "text": "Status?",
+    "expected": "update_needed",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Confirmed received, thanks for the quick turnaround",
+    "expected": "resolution",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Team meeting at 5pm today, conference room 2",
+    "expected": "fyi",
+    "groupName": "Acme Internal",
+    "groupType": "internal"
+  },
+  {
+    "text": "Yaar ye kab tak hoga? Mai morning se wait kar raha hu",
+    "expected": "escalation",
+    "groupName": "Customer XYZ",
+    "groupType": "customer"
+  },
+  {
+    "text": "Ok",
+    "expected": "noise",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  },
+  {
+    "text": "Need approval for the discount on order #4521 — customer is on the line",
+    "expected": "request",
+    "groupName": "Acme Sales",
+    "groupType": "internal"
+  },
+  {
+    "text": "Server is down, all our orders are stuck. Please fix urgently!",
+    "expected": "escalation",
+    "groupName": "Acme Ops",
+    "groupType": "internal"
+  }
+]

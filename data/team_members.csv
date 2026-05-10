@@ -1,0 +1,7 @@
+# Lighthouse team members
+# Phones we recognize as "ours" — replies from these numbers are treated
+# as outbound, trigger ack-judging, and update escalation status.
+phone,name,role
++918019461100,Lighthouse Bot Number,bot
++919550757026,Dinesh (personal),ops_lead
++22750576042214,Dinesh LID,ops_lead

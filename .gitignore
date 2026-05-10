@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Database (real customer message data — privacy)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# WhatsApp auth (anyone with these files can hijack the bot)
+src/whatsapp/auth/
+
+# Logs
+*.log
+logs/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Temp
+tmp/
